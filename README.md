@@ -9,8 +9,8 @@ A sample iOS app for presenting BBC News stories. It interfaces with my 3rd part
 - HTTP requests
 - JSON parsing
 
-![Screenshot](Screenshot 1.png)
+![Screenshot](http://i47.tinypic.com/1t3139.png)
 
-![Screenshot](Screenshot 2.png)
+![Screenshot](http://i50.tinypic.com/a42cgj.png)
 
-![Screenshot](Screenshot 3.png)
+![Screenshot](http://i48.tinypic.com/9919a8.png)
