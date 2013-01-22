@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86D54C0016AD4C2500CCBDB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D54BFF16AD4C2500CCBDB5 /* UIKit.framework */; };
+		86D54C0216AD4C2500CCBDB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D54C0116AD4C2500CCBDB5 /* Foundation.framework */; };
+		86D54C0416AD4C2500CCBDB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D54C0316AD4C2500CCBDB5 /* CoreGraphics.framework */; };
+		86D54C0A16AD4C2500CCBDB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C0816AD4C2500CCBDB5 /* InfoPlist.strings */; };
+		86D54C0C16AD4C2500CCBDB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C0B16AD4C2500CCBDB5 /* main.m */; };
+		86D54C1016AD4C2500CCBDB5 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C0F16AD4C2500CCBDB5 /* PCAppDelegate.m */; };
+		86D54C1216AD4C2500CCBDB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C1116AD4C2500CCBDB5 /* Default.png */; };
+		86D54C1416AD4C2500CCBDB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C1316AD4C2500CCBDB5 /* Default@2x.png */; };
+		86D54C1616AD4C2500CCBDB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C1516AD4C2500CCBDB5 /* Default-568h@2x.png */; };
+		86D54C1E16AD4D3B00CCBDB5 /* PCTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C1D16AD4D3B00CCBDB5 /* PCTopic.m */; };
+		86D54C2116AD4D4700CCBDB5 /* PCStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C2016AD4D4700CCBDB5 /* PCStory.m */; };
+		86D54C2616AD4D8000CCBDB5 /* PCNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C2516AD4D8000CCBDB5 /* PCNewsController.m */; };
+		86D54C2A16AD4DDE00CCBDB5 /* PCStoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C2916AD4DDE00CCBDB5 /* PCStoriesViewController.m */; };
+		86D54C3116AD4E2C00CCBDB5 /* PCRequestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C3016AD4E2C00CCBDB5 /* PCRequestKit.m */; };
+		86D54C3516AD4E7E00CCBDB5 /* PCTopicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C3416AD4E7E00CCBDB5 /* PCTopicsViewController.m */; };
+		86D54C3916AD5BD900CCBDB5 /* PCTabBarItem-headlines@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C3816AD5BD900CCBDB5 /* PCTabBarItem-headlines@2x.png */; };
+		86D54C3D16AD5C5C00CCBDB5 /* PCTabBarItem-world@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C3C16AD5C5C00CCBDB5 /* PCTabBarItem-world@2x.png */; };
+		86D54C4116AD5F2A00CCBDB5 /* PCTabBarItem-uk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4016AD5F2A00CCBDB5 /* PCTabBarItem-uk@2x.png */; };
+		86D54C4516AD5FE700CCBDB5 /* PCTabBarItem-england@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4416AD5FE700CCBDB5 /* PCTabBarItem-england@2x.png */; };
+		86D54C4716AD603700CCBDB5 /* PCTabBarItem-scotland@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4616AD603700CCBDB5 /* PCTabBarItem-scotland@2x.png */; };
+		86D54C4916AD60F200CCBDB5 /* PCTabBarItem-technology@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4816AD60F200CCBDB5 /* PCTabBarItem-technology@2x.png */; };
+		86D54C4B16AD61B800CCBDB5 /* PCTabBarItem-entertainment_and_arts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4A16AD61B800CCBDB5 /* PCTabBarItem-entertainment_and_arts@2x.png */; };
+		86D54C4D16AD621600CCBDB5 /* PCTabBarItem-science_and_environment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4C16AD621600CCBDB5 /* PCTabBarItem-science_and_environment@2x.png */; };
+		86D54C4F16AD626B00CCBDB5 /* PCTabBarItem-business@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C4E16AD626B00CCBDB5 /* PCTabBarItem-business@2x.png */; };
+		86D54C5116AD62AD00CCBDB5 /* PCTabBarItem-education@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C5016AD62AD00CCBDB5 /* PCTabBarItem-education@2x.png */; };
+		86D54C5316AD62E800CCBDB5 /* PCTabBarItem-health@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C5216AD62E800CCBDB5 /* PCTabBarItem-health@2x.png */; };
+		86D54C5516AD634D00CCBDB5 /* PCTabBarItem-politics@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C5416AD634D00CCBDB5 /* PCTabBarItem-politics@2x.png */; };
+		86D54C5716AD638D00CCBDB5 /* PCTabBarItem-wales@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C5616AD638D00CCBDB5 /* PCTabBarItem-wales@2x.png */; };
+		86D54C5C16AD69B800CCBDB5 /* NavigationBar-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C5B16AD69B800CCBDB5 /* NavigationBar-logo@2x.png */; };
+		86D54C5F16AD6B8800CCBDB5 /* PCStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C5E16AD6B8700CCBDB5 /* PCStoryViewController.m */; };
+		86D54C6E16AD736200CCBDB5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C6D16AD736200CCBDB5 /* Icon@2x.png */; };
+		86D54C7216AD820500CCBDB5 /* PCStoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C7116AD820500CCBDB5 /* PCStoryViewCell.m */; };
+		86D54C7516AD832200CCBDB5 /* PCImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C7416AD832200CCBDB5 /* PCImageView.m */; };
+		86D54C7916AD86E500CCBDB5 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D54C7816AD86E500CCBDB5 /* NSDate+TimeAgo.m */; };
+		86D54C9C16AE87AE00CCBDB5 /* PCTabBarItem-business.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C8F16AE87AE00CCBDB5 /* PCTabBarItem-business.png */; };
+		86D54C9D16AE87AE00CCBDB5 /* PCTabBarItem-education.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9016AE87AE00CCBDB5 /* PCTabBarItem-education.png */; };
+		86D54C9E16AE87AE00CCBDB5 /* PCTabBarItem-england.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9116AE87AE00CCBDB5 /* PCTabBarItem-england.png */; };
+		86D54C9F16AE87AE00CCBDB5 /* PCTabBarItem-entertainment_and_arts.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9216AE87AE00CCBDB5 /* PCTabBarItem-entertainment_and_arts.png */; };
+		86D54CA016AE87AE00CCBDB5 /* PCTabBarItem-headlines.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9316AE87AE00CCBDB5 /* PCTabBarItem-headlines.png */; };
+		86D54CA116AE87AE00CCBDB5 /* PCTabBarItem-health.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9416AE87AE00CCBDB5 /* PCTabBarItem-health.png */; };
+		86D54CA216AE87AE00CCBDB5 /* PCTabBarItem-politics.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9516AE87AE00CCBDB5 /* PCTabBarItem-politics.png */; };
+		86D54CA316AE87AE00CCBDB5 /* PCTabBarItem-science_and_environment.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9616AE87AE00CCBDB5 /* PCTabBarItem-science_and_environment.png */; };
+		86D54CA416AE87AE00CCBDB5 /* PCTabBarItem-scotland.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9716AE87AE00CCBDB5 /* PCTabBarItem-scotland.png */; };
+		86D54CA516AE87AE00CCBDB5 /* PCTabBarItem-technology.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9816AE87AE00CCBDB5 /* PCTabBarItem-technology.png */; };
+		86D54CA616AE87AE00CCBDB5 /* PCTabBarItem-uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9916AE87AE00CCBDB5 /* PCTabBarItem-uk.png */; };
+		86D54CA716AE87AE00CCBDB5 /* PCTabBarItem-wales.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9A16AE87AE00CCBDB5 /* PCTabBarItem-wales.png */; };
+		86D54CA816AE87AE00CCBDB5 /* PCTabBarItem-world.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54C9B16AE87AE00CCBDB5 /* PCTabBarItem-world.png */; };
+		86D54CAB16AE87CA00CCBDB5 /* NavigationBar-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54CAA16AE87CA00CCBDB5 /* NavigationBar-logo.png */; };
+		86D54CAD16AE87ED00CCBDB5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86D54CAC16AE87ED00CCBDB5 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86D54BFB16AD4C2500CCBDB5 /* BBCNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D54BFF16AD4C2500CCBDB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86D54C0116AD4C2500CCBDB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86D54C0316AD4C2500CCBDB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86D54C0716AD4C2500CCBDB5 /* BBCNews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBCNews-Info.plist"; sourceTree = "<group>"; };
+		86D54C0916AD4C2500CCBDB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86D54C0B16AD4C2500CCBDB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86D54C0D16AD4C2500CCBDB5 /* BBCNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBCNews-Prefix.pch"; sourceTree = "<group>"; };
+		86D54C0E16AD4C2500CCBDB5 /* PCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCAppDelegate.h; sourceTree = "<group>"; };
+		86D54C0F16AD4C2500CCBDB5 /* PCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCAppDelegate.m; sourceTree = "<group>"; };
+		86D54C1116AD4C2500CCBDB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		86D54C1316AD4C2500CCBDB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		86D54C1516AD4C2500CCBDB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		86D54C1C16AD4D3B00CCBDB5 /* PCTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCTopic.h; sourceTree = "<group>"; };
+		86D54C1D16AD4D3B00CCBDB5 /* PCTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCTopic.m; sourceTree = "<group>"; };
+		86D54C1F16AD4D4700CCBDB5 /* PCStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStory.h; sourceTree = "<group>"; };
+		86D54C2016AD4D4700CCBDB5 /* PCStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStory.m; sourceTree = "<group>"; };
+		86D54C2416AD4D8000CCBDB5 /* PCNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCNewsController.h; sourceTree = "<group>"; };
+		86D54C2516AD4D8000CCBDB5 /* PCNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCNewsController.m; sourceTree = "<group>"; };
+		86D54C2816AD4DDE00CCBDB5 /* PCStoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStoriesViewController.h; sourceTree = "<group>"; };
+		86D54C2916AD4DDE00CCBDB5 /* PCStoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStoriesViewController.m; sourceTree = "<group>"; };
+		86D54C2F16AD4E2C00CCBDB5 /* PCRequestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCRequestKit.h; sourceTree = "<group>"; };
+		86D54C3016AD4E2C00CCBDB5 /* PCRequestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCRequestKit.m; sourceTree = "<group>"; };
+		86D54C3316AD4E7E00CCBDB5 /* PCTopicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCTopicsViewController.h; sourceTree = "<group>"; };
+		86D54C3416AD4E7E00CCBDB5 /* PCTopicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCTopicsViewController.m; sourceTree = "<group>"; };
+		86D54C3816AD5BD900CCBDB5 /* PCTabBarItem-headlines@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-headlines@2x.png"; sourceTree = "<group>"; };
+		86D54C3C16AD5C5C00CCBDB5 /* PCTabBarItem-world@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-world@2x.png"; sourceTree = "<group>"; };
+		86D54C4016AD5F2A00CCBDB5 /* PCTabBarItem-uk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-uk@2x.png"; sourceTree = "<group>"; };
+		86D54C4416AD5FE700CCBDB5 /* PCTabBarItem-england@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-england@2x.png"; sourceTree = "<group>"; };
+		86D54C4616AD603700CCBDB5 /* PCTabBarItem-scotland@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-scotland@2x.png"; sourceTree = "<group>"; };
+		86D54C4816AD60F200CCBDB5 /* PCTabBarItem-technology@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-technology@2x.png"; sourceTree = "<group>"; };
+		86D54C4A16AD61B800CCBDB5 /* PCTabBarItem-entertainment_and_arts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-entertainment_and_arts@2x.png"; sourceTree = "<group>"; };
+		86D54C4C16AD621600CCBDB5 /* PCTabBarItem-science_and_environment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-science_and_environment@2x.png"; sourceTree = "<group>"; };
+		86D54C4E16AD626B00CCBDB5 /* PCTabBarItem-business@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-business@2x.png"; sourceTree = "<group>"; };
+		86D54C5016AD62AD00CCBDB5 /* PCTabBarItem-education@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-education@2x.png"; sourceTree = "<group>"; };
+		86D54C5216AD62E800CCBDB5 /* PCTabBarItem-health@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-health@2x.png"; sourceTree = "<group>"; };
+		86D54C5416AD634D00CCBDB5 /* PCTabBarItem-politics@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-politics@2x.png"; sourceTree = "<group>"; };
+		86D54C5616AD638D00CCBDB5 /* PCTabBarItem-wales@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-wales@2x.png"; sourceTree = "<group>"; };
+		86D54C5B16AD69B800CCBDB5 /* NavigationBar-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar-logo@2x.png"; sourceTree = "<group>"; };
+		86D54C5D16AD6B8700CCBDB5 /* PCStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStoryViewController.h; sourceTree = "<group>"; };
+		86D54C5E16AD6B8700CCBDB5 /* PCStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStoryViewController.m; sourceTree = "<group>"; };
+		86D54C6D16AD736200CCBDB5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		86D54C7016AD820500CCBDB5 /* PCStoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStoryViewCell.h; sourceTree = "<group>"; };
+		86D54C7116AD820500CCBDB5 /* PCStoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStoryViewCell.m; sourceTree = "<group>"; };
+		86D54C7316AD832200CCBDB5 /* PCImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCImageView.h; sourceTree = "<group>"; };
+		86D54C7416AD832200CCBDB5 /* PCImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCImageView.m; sourceTree = "<group>"; };
+		86D54C7716AD86E500CCBDB5 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		86D54C7816AD86E500CCBDB5 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		86D54C8F16AE87AE00CCBDB5 /* PCTabBarItem-business.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-business.png"; sourceTree = "<group>"; };
+		86D54C9016AE87AE00CCBDB5 /* PCTabBarItem-education.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-education.png"; sourceTree = "<group>"; };
+		86D54C9116AE87AE00CCBDB5 /* PCTabBarItem-england.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-england.png"; sourceTree = "<group>"; };
+		86D54C9216AE87AE00CCBDB5 /* PCTabBarItem-entertainment_and_arts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-entertainment_and_arts.png"; sourceTree = "<group>"; };
+		86D54C9316AE87AE00CCBDB5 /* PCTabBarItem-headlines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-headlines.png"; sourceTree = "<group>"; };
+		86D54C9416AE87AE00CCBDB5 /* PCTabBarItem-health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-health.png"; sourceTree = "<group>"; };
+		86D54C9516AE87AE00CCBDB5 /* PCTabBarItem-politics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-politics.png"; sourceTree = "<group>"; };
+		86D54C9616AE87AE00CCBDB5 /* PCTabBarItem-science_and_environment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-science_and_environment.png"; sourceTree = "<group>"; };
+		86D54C9716AE87AE00CCBDB5 /* PCTabBarItem-scotland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-scotland.png"; sourceTree = "<group>"; };
+		86D54C9816AE87AE00CCBDB5 /* PCTabBarItem-technology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-technology.png"; sourceTree = "<group>"; };
+		86D54C9916AE87AE00CCBDB5 /* PCTabBarItem-uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-uk.png"; sourceTree = "<group>"; };
+		86D54C9A16AE87AE00CCBDB5 /* PCTabBarItem-wales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-wales.png"; sourceTree = "<group>"; };
+		86D54C9B16AE87AE00CCBDB5 /* PCTabBarItem-world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PCTabBarItem-world.png"; sourceTree = "<group>"; };
+		86D54CAA16AE87CA00CCBDB5 /* NavigationBar-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar-logo.png"; sourceTree = "<group>"; };
+		86D54CAC16AE87ED00CCBDB5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86D54BF816AD4C2500CCBDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D54C0016AD4C2500CCBDB5 /* UIKit.framework in Frameworks */,
+				86D54C0216AD4C2500CCBDB5 /* Foundation.framework in Frameworks */,
+				86D54C0416AD4C2500CCBDB5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86D54BF016AD4C2500CCBDB5 = {
+			isa = PBXGroup;
+			children = (
+				86D54C0516AD4C2500CCBDB5 /* BBCNews */,
+				86D54BFE16AD4C2500CCBDB5 /* Frameworks */,
+				86D54BFC16AD4C2500CCBDB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86D54BFC16AD4C2500CCBDB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86D54BFB16AD4C2500CCBDB5 /* BBCNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86D54BFE16AD4C2500CCBDB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D54BFF16AD4C2500CCBDB5 /* UIKit.framework */,
+				86D54C0116AD4C2500CCBDB5 /* Foundation.framework */,
+				86D54C0316AD4C2500CCBDB5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86D54C0516AD4C2500CCBDB5 /* BBCNews */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C0E16AD4C2500CCBDB5 /* PCAppDelegate.h */,
+				86D54C0F16AD4C2500CCBDB5 /* PCAppDelegate.m */,
+				86D54C2716AD4D8400CCBDB5 /* View Controllers */,
+				86D54C2316AD4D5100CCBDB5 /* Controllers */,
+				86D54C2216AD4D4A00CCBDB5 /* Models */,
+				86D54C0616AD4C2500CCBDB5 /* Supporting Files */,
+			);
+			path = BBCNews;
+			sourceTree = "<group>";
+		};
+		86D54C0616AD4C2500CCBDB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C7616AD86CF00CCBDB5 /* Images */,
+				86D54C3216AD4E3000CCBDB5 /* PPRequestKit */,
+				86D54C7A16AD86E800CCBDB5 /* TimeAgo */,
+				86D54C0716AD4C2500CCBDB5 /* BBCNews-Info.plist */,
+				86D54C0816AD4C2500CCBDB5 /* InfoPlist.strings */,
+				86D54C0B16AD4C2500CCBDB5 /* main.m */,
+				86D54C0D16AD4C2500CCBDB5 /* BBCNews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86D54C2216AD4D4A00CCBDB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C1C16AD4D3B00CCBDB5 /* PCTopic.h */,
+				86D54C1D16AD4D3B00CCBDB5 /* PCTopic.m */,
+				86D54C1F16AD4D4700CCBDB5 /* PCStory.h */,
+				86D54C2016AD4D4700CCBDB5 /* PCStory.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		86D54C2316AD4D5100CCBDB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C2416AD4D8000CCBDB5 /* PCNewsController.h */,
+				86D54C2516AD4D8000CCBDB5 /* PCNewsController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		86D54C2716AD4D8400CCBDB5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C3316AD4E7E00CCBDB5 /* PCTopicsViewController.h */,
+				86D54C3416AD4E7E00CCBDB5 /* PCTopicsViewController.m */,
+				86D54C2816AD4DDE00CCBDB5 /* PCStoriesViewController.h */,
+				86D54C2916AD4DDE00CCBDB5 /* PCStoriesViewController.m */,
+				86D54C5D16AD6B8700CCBDB5 /* PCStoryViewController.h */,
+				86D54C5E16AD6B8700CCBDB5 /* PCStoryViewController.m */,
+				86D54C6F16AD81AF00CCBDB5 /* Views */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		86D54C3216AD4E3000CCBDB5 /* PPRequestKit */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C2F16AD4E2C00CCBDB5 /* PCRequestKit.h */,
+				86D54C3016AD4E2C00CCBDB5 /* PCRequestKit.m */,
+				86D54C7316AD832200CCBDB5 /* PCImageView.h */,
+				86D54C7416AD832200CCBDB5 /* PCImageView.m */,
+			);
+			name = PPRequestKit;
+			sourceTree = "<group>";
+		};
+		86D54C5816AD647200CCBDB5 /* Tab Images */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C3816AD5BD900CCBDB5 /* PCTabBarItem-headlines@2x.png */,
+				86D54C3C16AD5C5C00CCBDB5 /* PCTabBarItem-world@2x.png */,
+				86D54C4016AD5F2A00CCBDB5 /* PCTabBarItem-uk@2x.png */,
+				86D54C4416AD5FE700CCBDB5 /* PCTabBarItem-england@2x.png */,
+				86D54C4616AD603700CCBDB5 /* PCTabBarItem-scotland@2x.png */,
+				86D54C4816AD60F200CCBDB5 /* PCTabBarItem-technology@2x.png */,
+				86D54C4A16AD61B800CCBDB5 /* PCTabBarItem-entertainment_and_arts@2x.png */,
+				86D54C4C16AD621600CCBDB5 /* PCTabBarItem-science_and_environment@2x.png */,
+				86D54C4E16AD626B00CCBDB5 /* PCTabBarItem-business@2x.png */,
+				86D54C5016AD62AD00CCBDB5 /* PCTabBarItem-education@2x.png */,
+				86D54C5216AD62E800CCBDB5 /* PCTabBarItem-health@2x.png */,
+				86D54C5416AD634D00CCBDB5 /* PCTabBarItem-politics@2x.png */,
+				86D54C5616AD638D00CCBDB5 /* PCTabBarItem-wales@2x.png */,
+				86D54C8F16AE87AE00CCBDB5 /* PCTabBarItem-business.png */,
+				86D54C9016AE87AE00CCBDB5 /* PCTabBarItem-education.png */,
+				86D54C9116AE87AE00CCBDB5 /* PCTabBarItem-england.png */,
+				86D54C9216AE87AE00CCBDB5 /* PCTabBarItem-entertainment_and_arts.png */,
+				86D54C9316AE87AE00CCBDB5 /* PCTabBarItem-headlines.png */,
+				86D54C9416AE87AE00CCBDB5 /* PCTabBarItem-health.png */,
+				86D54C9516AE87AE00CCBDB5 /* PCTabBarItem-politics.png */,
+				86D54C9616AE87AE00CCBDB5 /* PCTabBarItem-science_and_environment.png */,
+				86D54C9716AE87AE00CCBDB5 /* PCTabBarItem-scotland.png */,
+				86D54C9816AE87AE00CCBDB5 /* PCTabBarItem-technology.png */,
+				86D54C9916AE87AE00CCBDB5 /* PCTabBarItem-uk.png */,
+				86D54C9A16AE87AE00CCBDB5 /* PCTabBarItem-wales.png */,
+				86D54C9B16AE87AE00CCBDB5 /* PCTabBarItem-world.png */,
+			);
+			name = "Tab Images";
+			sourceTree = "<group>";
+		};
+		86D54C6F16AD81AF00CCBDB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C7016AD820500CCBDB5 /* PCStoryViewCell.h */,
+				86D54C7116AD820500CCBDB5 /* PCStoryViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		86D54C7616AD86CF00CCBDB5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C1116AD4C2500CCBDB5 /* Default.png */,
+				86D54C1316AD4C2500CCBDB5 /* Default@2x.png */,
+				86D54C1516AD4C2500CCBDB5 /* Default-568h@2x.png */,
+				86D54CAC16AE87ED00CCBDB5 /* Icon.png */,
+				86D54C6D16AD736200CCBDB5 /* Icon@2x.png */,
+				86D54C5B16AD69B800CCBDB5 /* NavigationBar-logo@2x.png */,
+				86D54CAA16AE87CA00CCBDB5 /* NavigationBar-logo.png */,
+				86D54C5816AD647200CCBDB5 /* Tab Images */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		86D54C7A16AD86E800CCBDB5 /* TimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				86D54C7716AD86E500CCBDB5 /* NSDate+TimeAgo.h */,
+				86D54C7816AD86E500CCBDB5 /* NSDate+TimeAgo.m */,
+			);
+			name = TimeAgo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86D54BFA16AD4C2500CCBDB5 /* BBCNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D54C1916AD4C2500CCBDB5 /* Build configuration list for PBXNativeTarget "BBCNews" */;
+			buildPhases = (
+				86D54BF716AD4C2500CCBDB5 /* Sources */,
+				86D54BF816AD4C2500CCBDB5 /* Frameworks */,
+				86D54BF916AD4C2500CCBDB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCNews;
+			productName = BBCNews;
+			productReference = 86D54BFB16AD4C2500CCBDB5 /* BBCNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86D54BF216AD4C2500CCBDB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = 3SIDEDCUBE;
+			};
+			buildConfigurationList = 86D54BF516AD4C2500CCBDB5 /* Build configuration list for PBXProject "BBCNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86D54BF016AD4C2500CCBDB5;
+			productRefGroup = 86D54BFC16AD4C2500CCBDB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86D54BFA16AD4C2500CCBDB5 /* BBCNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86D54BF916AD4C2500CCBDB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D54C0A16AD4C2500CCBDB5 /* InfoPlist.strings in Resources */,
+				86D54C1216AD4C2500CCBDB5 /* Default.png in Resources */,
+				86D54C1416AD4C2500CCBDB5 /* Default@2x.png in Resources */,
+				86D54C1616AD4C2500CCBDB5 /* Default-568h@2x.png in Resources */,
+				86D54C3916AD5BD900CCBDB5 /* PCTabBarItem-headlines@2x.png in Resources */,
+				86D54C3D16AD5C5C00CCBDB5 /* PCTabBarItem-world@2x.png in Resources */,
+				86D54C4116AD5F2A00CCBDB5 /* PCTabBarItem-uk@2x.png in Resources */,
+				86D54C4516AD5FE700CCBDB5 /* PCTabBarItem-england@2x.png in Resources */,
+				86D54C4716AD603700CCBDB5 /* PCTabBarItem-scotland@2x.png in Resources */,
+				86D54C4916AD60F200CCBDB5 /* PCTabBarItem-technology@2x.png in Resources */,
+				86D54C4B16AD61B800CCBDB5 /* PCTabBarItem-entertainment_and_arts@2x.png in Resources */,
+				86D54C4D16AD621600CCBDB5 /* PCTabBarItem-science_and_environment@2x.png in Resources */,
+				86D54C4F16AD626B00CCBDB5 /* PCTabBarItem-business@2x.png in Resources */,
+				86D54C5116AD62AD00CCBDB5 /* PCTabBarItem-education@2x.png in Resources */,
+				86D54C5316AD62E800CCBDB5 /* PCTabBarItem-health@2x.png in Resources */,
+				86D54C5516AD634D00CCBDB5 /* PCTabBarItem-politics@2x.png in Resources */,
+				86D54C5716AD638D00CCBDB5 /* PCTabBarItem-wales@2x.png in Resources */,
+				86D54C5C16AD69B800CCBDB5 /* NavigationBar-logo@2x.png in Resources */,
+				86D54C6E16AD736200CCBDB5 /* Icon@2x.png in Resources */,
+				86D54C9C16AE87AE00CCBDB5 /* PCTabBarItem-business.png in Resources */,
+				86D54C9D16AE87AE00CCBDB5 /* PCTabBarItem-education.png in Resources */,
+				86D54C9E16AE87AE00CCBDB5 /* PCTabBarItem-england.png in Resources */,
+				86D54C9F16AE87AE00CCBDB5 /* PCTabBarItem-entertainment_and_arts.png in Resources */,
+				86D54CA016AE87AE00CCBDB5 /* PCTabBarItem-headlines.png in Resources */,
+				86D54CA116AE87AE00CCBDB5 /* PCTabBarItem-health.png in Resources */,
+				86D54CA216AE87AE00CCBDB5 /* PCTabBarItem-politics.png in Resources */,
+				86D54CA316AE87AE00CCBDB5 /* PCTabBarItem-science_and_environment.png in Resources */,
+				86D54CA416AE87AE00CCBDB5 /* PCTabBarItem-scotland.png in Resources */,
+				86D54CA516AE87AE00CCBDB5 /* PCTabBarItem-technology.png in Resources */,
+				86D54CA616AE87AE00CCBDB5 /* PCTabBarItem-uk.png in Resources */,
+				86D54CA716AE87AE00CCBDB5 /* PCTabBarItem-wales.png in Resources */,
+				86D54CA816AE87AE00CCBDB5 /* PCTabBarItem-world.png in Resources */,
+				86D54CAB16AE87CA00CCBDB5 /* NavigationBar-logo.png in Resources */,
+				86D54CAD16AE87ED00CCBDB5 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86D54BF716AD4C2500CCBDB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D54C0C16AD4C2500CCBDB5 /* main.m in Sources */,
+				86D54C1016AD4C2500CCBDB5 /* PCAppDelegate.m in Sources */,
+				86D54C1E16AD4D3B00CCBDB5 /* PCTopic.m in Sources */,
+				86D54C2116AD4D4700CCBDB5 /* PCStory.m in Sources */,
+				86D54C2616AD4D8000CCBDB5 /* PCNewsController.m in Sources */,
+				86D54C2A16AD4DDE00CCBDB5 /* PCStoriesViewController.m in Sources */,
+				86D54C3116AD4E2C00CCBDB5 /* PCRequestKit.m in Sources */,
+				86D54C3516AD4E7E00CCBDB5 /* PCTopicsViewController.m in Sources */,
+				86D54C5F16AD6B8800CCBDB5 /* PCStoryViewController.m in Sources */,
+				86D54C7216AD820500CCBDB5 /* PCStoryViewCell.m in Sources */,
+				86D54C7516AD832200CCBDB5 /* PCImageView.m in Sources */,
+				86D54C7916AD86E500CCBDB5 /* NSDate+TimeAgo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86D54C0816AD4C2500CCBDB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86D54C0916AD4C2500CCBDB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86D54C1716AD4C2500CCBDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Duncan Cook (AC9MVPVNF6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16E3FAEE-72E1-4043-BA8E-DB448E8163CC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86D54C1816AD4C2500CCBDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86D54C1A16AD4C2500CCBDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBCNews/BBCNews-Prefix.pch";
+				INFOPLIST_FILE = "BBCNews/BBCNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86D54C1B16AD4C2500CCBDB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBCNews/BBCNews-Prefix.pch";
+				INFOPLIST_FILE = "BBCNews/BBCNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86D54BF516AD4C2500CCBDB5 /* Build configuration list for PBXProject "BBCNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D54C1716AD4C2500CCBDB5 /* Debug */,
+				86D54C1816AD4C2500CCBDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D54C1916AD4C2500CCBDB5 /* Build configuration list for PBXNativeTarget "BBCNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D54C1A16AD4C2500CCBDB5 /* Debug */,
+				86D54C1B16AD4C2500CCBDB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86D54BF216AD4C2500CCBDB5 /* Project object */;
+}
